@@ -247,7 +247,7 @@ export default function HeroVideo() {
                             width: { sm: '100%', md: '80%' },
                         }}
                     >
-                        PatrolPost provides top-notch remote monitoring solutions for schools, hospitals, construction sites, and more.
+                        DevShield provides top-notch remote monitoring solutions for schools, hospitals, construction sites, and more.
                         Our state-of-the-art technology ensures you have eyes everywhere, anytime, and with unprecedented ease and reliability.
                     </Typography>
                     <DemoInput />

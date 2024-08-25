@@ -9,7 +9,7 @@ import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
-import PatrolPostIcon from './PatrolPostIcon';
+import FooterLogo from './FooterLogo';
 
 
 export default function Footer() {
@@ -48,7 +48,7 @@ export default function Footer() {
                     justifyContent: 'space-between',
                 }}
             >
-                <PatrolPostIcon />
+                <FooterLogo />
                 <Box
                     sx={{
                         display: 'flex',

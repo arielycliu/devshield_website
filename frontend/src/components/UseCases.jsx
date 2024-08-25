@@ -56,7 +56,7 @@ export default function UseCases() {
                     Empowering Across Industries
                 </Typography>
                 <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                    No matter the industry, PatrolPost’s innovative solutions provide peace of mind and enhance security with advanced technology and seamless integration.
+                    No matter the industry, DevShield’s innovative solutions provide peace of mind and enhance security with advanced technology and seamless integration.
                 </Typography>
             </Box>
             <Grid container spacing={2}>

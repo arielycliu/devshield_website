@@ -242,8 +242,8 @@ function DemoForm({ open, handleClose, email, setEmail }) {
                 </Typography>
                 <Typography sx={{ mt: 1 }}>
                 If you have any immediate questions, feel free to contact us at{' '}
-                <Link href="mailto:info@patrolpost.com" color="inherit">
-                    info@patrolpost.com
+                <Link href="mailto:info@DevShield.com" color="inherit">
+                    info@DevShield.com
                 </Link>.
                 </Typography>
 

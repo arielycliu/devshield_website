@@ -87,7 +87,7 @@ export default function Features() {
         <Grid item xs={12} md={6}>
           <div>
             <Typography component="h2" variant="h4" sx={{ color: 'text.primary', mb: 2 }}>
-              Meet your new PatrolPost
+              Meet your new DevShield
             </Typography>
             <Typography
               variant="body1"

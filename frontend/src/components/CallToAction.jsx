@@ -52,7 +52,7 @@ export default function CallToAction() {
                             }),
                         })}
                     >
-                        PatrolPost&#32;
+                        DevShield&#32;
                     </Typography>
                     advantage
                 </Typography>
@@ -64,7 +64,7 @@ export default function CallToAction() {
                         width: { sm: '100%', md: '80%' },
                     }}
                 >
-                    Ready to see how PatrolPost can transform your surveillance needs? 
+                    Ready to see how DevShield can transform your surveillance needs? 
                 </Typography>
                 <Typography
                     sx={{
