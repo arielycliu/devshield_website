@@ -54,10 +54,9 @@ const ImageBox = styled('div')(({ theme }) => ({
 
 const AnimatedText = () => {
     const texts = [
-        'For Schools',
-        'For Hospitals',
-        'For Construction Sites',
-        'For Everything'
+        'For Engineers',
+        'For Managers',
+        'For Teams'
     ];
 
     const [currentText, setCurrentText] = useState(texts[0]);
@@ -165,7 +164,20 @@ export default function HeroVideo() {
                         width: { xs: '100%', sm: '70%' }
                     }}
                 >
-                    <AnimatedText /> 
+                    <Typography
+                        variant="h6"
+                        sx={{
+                            textAlign: {
+                                xs: 'center',
+                                sm: 'center',
+                                md: 'left'
+                            },
+                            color: 'text.secondary',
+                            width: { sm: '100%', md: '100%' },
+                        }}
+                    >
+                        Giving&nbsp;developers&nbsp;a&nbsp;shield&nbsp;and&nbsp;decision&nbsp;makers&nbsp;the&nbsp;insights&nbsp;to&nbsp;lead
+                    </Typography>
                     <Typography
                         variant="h1"
                         sx={{
@@ -183,7 +195,7 @@ export default function HeroVideo() {
                             },
                         }}
                     >
-                        Real&#8209;Time&nbsp;
+                        Shielding&nbsp;
                         <Typography
                             component="span"
                             variant="h1"
@@ -195,7 +207,7 @@ export default function HeroVideo() {
                                 }),
                             })}
                         >
-                            Security
+                            Engineers
                         </Typography>
                     </Typography>
                     <Typography
@@ -215,7 +227,7 @@ export default function HeroVideo() {
                             },
                         }}
                     >
-                        for&nbsp;Real&#8209;World&nbsp;
+                        Unleashing&nbsp;
                         <Typography
                             component="span"
                             variant="h1"
@@ -227,7 +239,7 @@ export default function HeroVideo() {
                                 }),
                             })}
                         >
-                            Safety
+                            Potential
                         </Typography>
                     </Typography>
                     <Typography
@@ -241,24 +253,28 @@ export default function HeroVideo() {
                             width: { sm: '100%', md: '80%' },
                         }}
                     >
-                        DevShield provides top-notch remote monitoring solutions for schools, hospitals, construction sites, and more.
-                        Our state-of-the-art technology ensures you have eyes everywhere, anytime, and with unprecedented ease and reliability.
+                        DevShield harnesses the power of AI to bring visibility to calendar time sinks,
+                        identifies thousands in optimizations, and (coming soon) automatically
+                        protects costly interruptions from creeping back in!
                     </Typography>
-                    <DemoInput />
-                    {/* <Typography variant="caption" sx={{ textAlign: 'center' }}>
-                        We will be in contact in 2-3&nbsp;
-                        <Link href="#" color="primary">
-                            working days
-                        </Link>
-                        .
+                    {/* <Typography
+                        sx={{
+                            textAlign: {
+                                xs: 'center',
+                                sm: 'center',
+                                md: 'left'
+                            },
+                            color: 'text.primary',
+                            width: { sm: '100%', md: '80%' },
+                            fontStyle: 'italic',
+                        }}
+                    >
+                        "Engineering leaders come back with Devshield or on it!""
                     </Typography> */}
+                    <DemoInput />
                 </Stack>
                 <ImageBox id="image" />
             </Container>
-            {/* <Container
-            >
-                <StyledBox />
-            </Container> */}
         </Box>
     );
 }

@@ -11,7 +11,7 @@ import AutoAwesomeRoundedIcon from '@mui/icons-material/AutoAwesomeRounded';
 import AppAppBar from './components/AppAppBar';
 import Hero from './components/Hero';
 import LogoCollection from './components/LogoCollection';
-import Highlights from './components/Highlights';
+import HowItWorks from './components/HowItWorks';
 import Pricing from './components/Pricing';
 import Features from './components/Features';
 import UseCases from './components/UseCases';
@@ -84,19 +84,18 @@ export default function LandingPage() {
         <ThemeProvider theme={LPtheme}> 
             <CssBaseline />
             <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
-            {/* <Hero /> */}
-            <HeroVideo />
+            <Hero />
             <Box sx={{ bgcolor: 'background.default' }}>
                 {/* <LogoCollection /> */}
                 <Features />
                 <Divider />
-                <Highlights />
+                <HowItWorks />
                 <Divider />
-                <UseCases />
-                <Divider />
-                {/* <Pricing /> */}
+                {/* <UseCases /> */}
                 {/* <Divider /> */}
-                {/* <FAQ /> */}
+                <Pricing />
+                <Divider />
+                <FAQ />
                 <CallToAction /> 
                 <Divider />
                 <Footer />

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
@@ -9,7 +10,7 @@ import Container from '@mui/material/Container';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-
+import DemoForm from './DemoForm';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
@@ -18,12 +19,12 @@ const tiers = [
     title: 'Free',
     price: '0',
     description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
+      '5 users included',
+      'Daily one-question pulse surveys',
+      'Google Workspace Integration',
+      'Limited Storage',
     ],
-    buttonText: 'Sign up for free',
+    buttonText: 'Sign up',
     buttonVariant: 'outlined',
   },
   {
@@ -31,31 +32,36 @@ const tiers = [
     subheader: 'Recommended',
     price: '15',
     description: [
-      '20 users included',
-      '10 GB of storage',
-      'Help center access',
+      'No limit on users',
+      'Daily one-question pulse surveys',
+      'Google Workspace Integration',
       'Priority email support',
-      'Dedicated team',
-      'Best deals',
+      'Unlimited storage space',
+      'AI-powered insight generation',
     ],
     buttonText: 'Start now',
     buttonVariant: 'contained',
   },
   {
     title: 'Enterprise',
-    price: '30',
+    price: '?',
     description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
+      'Personalized business plan',
+      'No limit on users',
+      'Unlimited storage space',
+      'All the features of professional',
     ],
-    buttonText: 'Contact us',
+    buttonText: 'Contact us for a custom plan',
     buttonVariant: 'outlined',
   },
 ];
 
 export default function Pricing() {
+  const [open, setOpen] = useState(false);
+  const [email, setEmail] = useState('');
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
     <Container
       id="pricing"
@@ -79,10 +85,7 @@ export default function Pricing() {
           Pricing
         </Typography>
         <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-          Quickly build an effective pricing table for your potential customers with
-          this layout. <br />
-          It&apos;s built with default Material UI components with little
-          customization.
+          
         </Typography>
       </Box>
       <Grid
@@ -203,7 +206,7 @@ export default function Pricing() {
                 ))}
               </CardContent>
               <CardActions>
-                <Button fullWidth variant={tier.buttonVariant}>
+                <Button fullWidth variant={tier.buttonVariant} onClick={handleOpen}>
                   {tier.buttonText}
                 </Button>
               </CardActions>
@@ -211,6 +214,7 @@ export default function Pricing() {
           </Grid>
         ))}
       </Grid>
+      <DemoForm open={open} handleClose={handleClose} email={email} setEmail={setEmail} />
     </Container>
   );
 }

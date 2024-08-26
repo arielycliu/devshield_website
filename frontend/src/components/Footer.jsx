@@ -63,10 +63,10 @@ export default function Footer() {
                         flexDirection: 'column',
                     }}>
                         <Typography variant="body2" gutterBottom sx={{ fontWeight: 600, mt: 2 }}>
-                            Leading the Future of Remote Surveillance
+                            Leading the Future of Engineer Productivity
                         </Typography>
                         <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
-                            Top-notch remote monitoring solutions for schools, hospitals, construction sites, and more.
+                            Giving developers a shield and decision-makers the insights to lead.
                         </Typography>
                     </Box>
                 </Box>

@@ -11,11 +11,10 @@ import Typography from '@mui/material/Typography';
 
 import { styled } from '@mui/material/styles';
 
-import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
-import CameraAltRoundedIcon from '@mui/icons-material/CameraAltRounded';
-import SolarPowerRoundedIcon from '@mui/icons-material/SolarPowerRounded';
-import FastForwardRoundedIcon from '@mui/icons-material/FastForwardRounded';
-import InventoryRoundedIcon from '@mui/icons-material/InventoryRounded';
+import FeedbackIcon from '@mui/icons-material/Feedback';
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import GoogleIcon from '@mui/icons-material/Google';
+import TimelineIcon from '@mui/icons-material/Timeline';
 import thermal from '../assets/thermal.png';
 import solar from '../assets/solar.png';
 import deploy from '../assets/deploy.png';
@@ -23,31 +22,31 @@ import iso from '../assets/iso.png';
 
 const items = [
   {
-    icon: <CameraAltRoundedIcon />,
-    title: 'Thermal Imaging',
+    icon: <FeedbackIcon />,
+    title: 'Anonymous Feedback',
     description:
-      'See clearly in complete darkness and through obstructions.',
+      'Our anonymous survey application fosters openness and trust, enabling engineers to share concerns without fear of retaliation.',
     imageLight: `url(${thermal})`,
   },
   {
-    icon: <SolarPowerRoundedIcon />,
-    title: 'Solar-Powered Generators',
+    icon: <PsychologyIcon />,
+    title: 'AI-Powered Analysis',
     description:
-      'Enjoy eco-friendly, continuous operation with backup gasoline power for added reliability.',
+      'Deep calendar analysis hunting for unnecessary time sinks. Advanced AI analyzes calendar invites in real-time, protecting developer focus time.',
     imageLight: `url(${solar})`,
   },
   {
-    icon: <FastForwardRoundedIcon />,
-    title: 'Rapid Deployment',
+    icon: <GoogleIcon />,
+    title: 'Google Workspace',
     description:
-      'Set up our mobile unit instantly and anywhere, with a fully wireless design for seamless operation.',
+      'Direct integration with Google Workspace to identify thousands per engineer in savings in mere minutes.',
     imageLight: `url(${deploy})`,
   },
   {
-    icon: <InventoryRoundedIcon />,
-    title: 'ISO9001 & ISO14001 Certified',
+    icon: <TimelineIcon />,
+    title: 'Dashboard insights',
     description:
-      'Rely on a product built with the highest standards of quality and environmental responsibility.',
+      'Dashboard insights to provide visibility into engineer productivity and happiness over time, protecting your most valuable assets.',
     imageLight: `url(${iso})`,
   },
 ];
@@ -87,13 +86,13 @@ export default function Features() {
         <Grid item xs={12} md={6}>
           <div>
             <Typography component="h2" variant="h4" sx={{ color: 'text.primary', mb: 2 }}>
-              Meet your new DevShield
+              Check in on the cost of your meetings
             </Typography>
             <Typography
               variant="body1"
               sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}
             >
-              Our cutting-edge hardware is designed to offer unparalleled monitoring capabilities:
+              Our software is designed to offer unparalleled insight into your engineer's day-to-day:
             </Typography>
           </div>
           <Grid container item sx={{ gap: 1, display: { xs: 'auto', sm: 'none' } }}>

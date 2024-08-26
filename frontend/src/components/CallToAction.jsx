@@ -64,7 +64,7 @@ export default function CallToAction() {
                         width: { sm: '100%', md: '80%' },
                     }}
                 >
-                    Ready to see how DevShield can transform your surveillance needs? 
+                    Ready to see how DevShield can transform your company's productivity? 
                 </Typography>
                 <Typography
                     sx={{
@@ -87,7 +87,7 @@ export default function CallToAction() {
                     >
                         Sign up for a demo today&nbsp;
                     </Typography>
-                    and discover the future of remote monitoring.
+                    and discover the future of engineering.
                 </Typography>
                 <DemoInputCTA />
             </Stack>

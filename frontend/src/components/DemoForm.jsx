@@ -89,7 +89,7 @@ function DemoForm({ open, handleClose, email, setEmail }) {
                         alignItems: 'left'
                     }}>
                         <Typography id="modal-title" variant="h6" component="h2">
-                            Ready to secure your property?
+                            Ready to see how DevShield can transform your company?
                         </Typography>
 
                         <TextField
