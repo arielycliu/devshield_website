@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import { visuallyHidden } from '@mui/utils';
 import { styled } from '@mui/material/styles';
 import DemoInput from './DemoInput';
-import robot from '../assets/robot.png';
+import shield from '../assets/shield.png';
 
 const StyledBox = styled('div')(({ theme }) => ({
     alignSelf: 'center',
@@ -42,7 +42,7 @@ const ImageBox = styled('div')(({ theme }) => ({
     width: '100%',
     height: 400,
     marginTop: theme.spacing(8),
-    backgroundImage: `url(${robot})`,
+    backgroundImage: `url(${shield})`,
     backgroundSize: 'contain',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

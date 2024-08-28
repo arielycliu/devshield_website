@@ -15,10 +15,10 @@ import FeedbackIcon from '@mui/icons-material/Feedback';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import GoogleIcon from '@mui/icons-material/Google';
 import TimelineIcon from '@mui/icons-material/Timeline';
-import thermal from '../assets/thermal.png';
-import solar from '../assets/solar.png';
-import deploy from '../assets/deploy.png';
-import iso from '../assets/iso.png';
+import thermal from '../assets/feedback.png';
+import solar from '../assets/ai.png';
+import deploy from '../assets/google.png';
+import iso from '../assets/dashboard.png';
 
 const items = [
   {

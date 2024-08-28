@@ -14,7 +14,7 @@ import LogoCollection from './components/LogoCollection';
 import HowItWorks from './components/HowItWorks';
 import Pricing from './components/Pricing';
 import Features from './components/Features';
-import UseCases from './components/UseCases';
+// import UseCases from './components/UseCases';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import getLPTheme from './getLPTheme';
