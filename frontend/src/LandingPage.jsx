@@ -93,8 +93,8 @@ export default function LandingPage() {
                 <Divider />
                 {/* <UseCases /> */}
                 {/* <Divider /> */}
-                <Pricing />
-                <Divider />
+                {/* <Pricing />
+                <Divider /> */}
                 <FAQ />
                 <CallToAction /> 
                 <Divider />

@@ -51,7 +51,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="h3" variant="subtitle2">
-            Do you support Exchange/Teams/Outlook Calendar?
+            Do you support Google/Outlook Calendar?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -60,7 +60,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Not yet, but coming soon! Right now we support Google Workspace.
+              Absolutely!
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -97,7 +97,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="h3" variant="subtitle2">
-            How much optimization can my company expect?
+            How many interrupts can I expect to prevent with the Slackbot?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -106,7 +106,10 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Every company is different, but the demo is free and will give you a specific optimization forecast.  It's not uncommon for developers to have 40 percent or more of their productivity being interrupted by meetings!
+              The average corporate employee is interrupted once every three minutes, which equates to up to 160 interrupts a day, and a single interrupt can take up to thirty minutes to regain focus!&nbsp;
+              <Link href="https://en.wikipedia.org/wiki/Interruption_science" target="_blank" rel="noopener">
+              (source)
+              </Link>. Devshield's goal is to eliminate distractions, allowing you to get deep focus work done during regular business hours that otherwise is relegated to early mornings, nights, and weekends.
             </Typography>
           </AccordionDetails>
         </Accordion>

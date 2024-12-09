@@ -253,24 +253,8 @@ export default function HeroVideo() {
                             width: { sm: '100%', md: '80%' },
                         }}
                     >
-                        DevShield harnesses the power of AI to bring visibility to calendar time sinks,
-                        identifies thousands in optimizations, and (coming soon) automatically
-                        protects costly interruptions from creeping back in!
+                        The world's first calendar aware Slackbot autoresponder is launching soon - achieve new levels of focus while not leaving stakeholders waiting. Sign up for early access now!
                     </Typography>
-                    {/* <Typography
-                        sx={{
-                            textAlign: {
-                                xs: 'center',
-                                sm: 'center',
-                                md: 'left'
-                            },
-                            color: 'text.primary',
-                            width: { sm: '100%', md: '80%' },
-                            fontStyle: 'italic',
-                        }}
-                    >
-                        "Engineering leaders come back with Devshield or on it!""
-                    </Typography> */}
                     <DemoInput />
                 </Stack>
                 <ImageBox id="image" />

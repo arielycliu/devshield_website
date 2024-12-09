@@ -44,7 +44,7 @@ function DemoInput() {
                     sx={{ ml: { xs: 0, sm: -10 } }}
                     onClick={handleOpen}
                 >
-                    Get a demo
+                    Get Early Access
                 </Button>
             </Stack>
 

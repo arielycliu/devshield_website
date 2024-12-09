@@ -124,7 +124,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                         />
                         
                         <Button onClick={handleOpen} color="primary" variant="contained" size="small">
-                            Get a demo
+                            Get Early Access
                         </Button>
                     </Box>
                     <Box sx={{ display: { sm: 'flex', md: 'none' } }}>
@@ -183,7 +183,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                                 }}
                                 >
                                     <Button onClick={handleOpen} color="primary" variant="contained" halfWidth>
-                                        Get a demo
+                                        Get Early Access
                                     </Button>
                                 </MenuItem>
 
