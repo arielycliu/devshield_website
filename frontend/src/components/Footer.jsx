@@ -8,12 +8,12 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-
+import { useNavigate } from 'react-router-dom';
 import FooterLogo from './FooterLogo';
 
 
 export default function Footer() {
-
+    const navigate = useNavigate();
     const scrollToSection = (sectionId) => {
         const sectionElement = document.getElementById(sectionId);
         const offset = 128;
@@ -77,14 +77,20 @@ export default function Footer() {
                         gap: 1,
                     }}
                 >
-                    <Link onClick={() => scrollToSection('features')} color="text.secondary" variant="body2">
+                    <Link onClick={() => scrollToSection('features')} color="text.secondary" variant="body2" sx={{ cursor: 'pointer' }}>
                         Features
                     </Link>
-                    <Link onClick={() => scrollToSection('highlights')} color="text.secondary" variant="body2">
+                    <Link onClick={() => scrollToSection('highlights')} color="text.secondary" variant="body2" sx={{ cursor: 'pointer' }}>
                         Highlights
                     </Link>
-                    <Link onClick={() => scrollToSection('usecases')} color="text.secondary" variant="body2">
+                    <Link onClick={() => scrollToSection('usecases')} color="text.secondary" variant="body2" sx={{ cursor: 'pointer' }}>
                         Use Cases
+                    </Link>
+                    <Link onClick={() => navigate('/privacy-policy')} color="text.secondary" variant="body2" sx={{ cursor: 'pointer' }}>
+                        Privacy Policy
+                    </Link>
+                    <Link onClick={() => navigate('/terms-and-conditions')} color="text.secondary" variant="body2" sx={{ cursor: 'pointer' }}>
+                        Terms & Conditions
                     </Link>
                 </Box>
             </Box>
